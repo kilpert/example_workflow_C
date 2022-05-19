@@ -13,5 +13,4 @@ rule txt:
 rule all:
     input:
         txt_output
-    default_target: True # <--------- if set => crash!!!
 
